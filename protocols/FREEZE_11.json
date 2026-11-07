@@ -1,0 +1,10 @@
+{
+ "PROTOCOL_11_FROZEN.md": "efde527c319e1b85ae84051f52aaf88d19fa871ddc16aa2db4843e143e0ee8d3",
+ "src/tw2.py": "7a0ba4253ac0386b82493ecd32a7bc29f3c375a4ee491ae7e227149e4f4929d4",
+ "src/run_tw2.py": "839610eb82d521669b1589d1f0ffee29f60a3bd2093f77ca65639e02744d9039",
+ "../research_07nov_qkd_p10/src/t1_standard_float.py": "0339c758d4558ccc501d1db3a5012b60b73eb9f624d363ef927bfae4147ca0f6",
+ "../research_07nov_qkd_p10/src/fastcheck.py": "a4f601aac7127d21b22b1e0a70aa9b82314fcaafcea80737ede892fd5cf223e3",
+ "../research_07nov_qkd_p10/src/enclosed_leak.py": "f4a0d2da85e9cce89881332459240e7c403ae92f60d934ccb7612512ec7f9740",
+ "../research_05nov_qkd_gap/data_out_verify8.json": "88bea2cbc6fce4afec2a28c736fa46a98cc880c31c9b5cc6f428154fffef3bf0",
+ "set2_states:p10r_states_for_p11.json": "1f3cf91e0bb71d1c0f0354f4b7bc62ff7f273cfefdcce96b4d73ed34787ef43a"
+}

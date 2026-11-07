@@ -1,0 +1,15 @@
+{
+ "qkd.py": "20cca4f7125a1c44fecf9e5d4b869f5dc71816bc908ba1a19651e0b09e7a8405",
+ "learn.py": "41bbd710e6eb8dda901e2a0c02ca4a7ef6226cc3af2712ec15c79ebc8c84fb4e",
+ "solver_audit.py": "5717ba6d38c6f2620e978ec82b007baedf7dcefcc458a8c4b9e2bd0ba68df6be",
+ "physical_moments.py": "752d0ac5ee159f45d4e4880c26e391cd1fcc6511069cad36b71990ff3f12816f",
+ "model_store.py": "8cc34d0ddeec42c4765531361dc22fc9027613644f145788219051c083c27d08",
+ "verify_v4.py": "efe1a8cbf446374b598041b26e9b4e4072f02957ea7234460fdee48f62c370c6",
+ "symmetry_diagnostic.py": "0cceb20cdb27649c02ea4812ace7e4087dd69877caccfb3a022c8daf2f706c57",
+ "optimized_solver.py": "38c9d0b418885a1f7ab2cb6cc9282eefe4a4fd24ecdc4b9daaa02d50ca095464",
+ "fastcheck.py": "a4f601aac7127d21b22b1e0a70aa9b82314fcaafcea80737ede892fd5cf223e3",
+ "keyrate.py": "e15f8065d79aefe87adc433f8def3ebf600354954be84115ce21380d332ad418",
+ "run_verify8.py": "ab372ec77cd2cb49df36c4c7fb7e184a96094e4648e9dade5354fb46d4d7a725",
+ "PROTOCOL_8_FROZEN.md": "de59ff95f116b14fc2d363a5784ca5de662e411493fbfe1dd257654051162031",
+ "KNOWN_POINT_HASHES.json": "daf283f2ffef5a331002105fc8adb77314a1a492aef25b320f121d2ec1f9a841"
+}

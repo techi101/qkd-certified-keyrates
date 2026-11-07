@@ -1,0 +1,18 @@
+{
+ "common.py": "a9c2fa3c35ec9fc75bd4b6769e8e0ba8e13fd8c7da3815219960b5fb425fd765",
+ "enclosed_leak.py": "f4a0d2da85e9cce89881332459240e7c403ae92f60d934ccb7612512ec7f9740",
+ "fastcheck.py": "a4f601aac7127d21b22b1e0a70aa9b82314fcaafcea80737ede892fd5cf223e3",
+ "keyrate.py": "e15f8065d79aefe87adc433f8def3ebf600354954be84115ce21380d332ad418",
+ "learn.py": "41bbd710e6eb8dda901e2a0c02ca4a7ef6226cc3af2712ec15c79ebc8c84fb4e",
+ "model_store.py": "8cc34d0ddeec42c4765531361dc22fc9027613644f145788219051c083c27d08",
+ "optimized_solver.py": "38c9d0b418885a1f7ab2cb6cc9282eefe4a4fd24ecdc4b9daaa02d50ca095464",
+ "physical_moments.py": "752d0ac5ee159f45d4e4880c26e391cd1fcc6511069cad36b71990ff3f12816f",
+ "qkd.py": "20cca4f7125a1c44fecf9e5d4b869f5dc71816bc908ba1a19651e0b09e7a8405",
+ "run_p10.py": "2301bcf1524ed18bab9a861aece621c371108b5699051b646993abb9ddd06cf8",
+ "solver_audit.py": "5717ba6d38c6f2620e978ec82b007baedf7dcefcc458a8c4b9e2bd0ba68df6be",
+ "symmetry_diagnostic.py": "0cceb20cdb27649c02ea4812ace7e4087dd69877caccfb3a022c8daf2f706c57",
+ "t1_standard_float.py": "0339c758d4558ccc501d1db3a5012b60b73eb9f624d363ef927bfae4147ca0f6",
+ "verify_v4.py": "efe1a8cbf446374b598041b26e9b4e4072f02957ea7234460fdee48f62c370c6",
+ "PROTOCOL_10_FROZEN.md": "17d27d0f167264387f3a6e1df1925980c7bc5b2a260b998006a7616fd23667c2",
+ "KNOWN_POINT_HASHES.json": "665ed45d12bb2db8a16720f31114451224ffac2bb3449983583eda17d804a6c8"
+}

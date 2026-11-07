@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+env/
+tampered.json
+verify_result.json
+refusal_result.json
