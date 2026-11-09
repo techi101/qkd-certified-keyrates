@@ -5,6 +5,8 @@ For each record it recomputes, from the witness alone (no optimisation is rerun)
   * the two-sided Arb enclosure [lo, hi] of the exact certificate of every saved dense matrix S;
   * the enclosed error-correction leakage and the net-rate bounds.
 A record PASSES when every recomputed endpoint equals the saved one. It FAILS (verification refused) otherwise.
+On a platform other than the original (different BLAS), pass --tol 1e-12: lower ends that start from a float eigenvalue
+may then differ in the last bits; upper ends, leakage and net rates must still match exactly.
 
 Usage:
   python verify.py ../data/out_p10r.json.gz            # all 160 records
@@ -15,7 +17,8 @@ import sys, os, json, gzip, argparse, time
 for k in ['OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS', 'NUMEXPR_NUM_THREADS']: os.environ[k] = '1'
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from multiprocessing import Pool
-from verify_witness import check
+from verify_tol import check
+from functools import partial
 
 
 def load(path):
@@ -26,14 +29,15 @@ def load(path):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('witnesses'); ap.add_argument('--n', type=int, default=0)
     ap.add_argument('--procs', type=int, default=4); ap.add_argument('--out', default='verify_result.json')
+    ap.add_argument('--tol', type=float, default=0.0)
     a = ap.parse_args()
     recs = load(a.witnesses)['res']
     if a.n: recs = recs[:a.n]
     t0 = time.time()
-    with Pool(a.procs) as pool: res = pool.map(check, recs)
+    with Pool(a.procs) as pool: res = pool.map(partial(check, tol=a.tol), recs)
     bad = [r for r in res if not r['ok']]
     import flint, numpy, scipy
     json.dump({'n': len(res), 'n_fail': len(bad), 'versions': {'python-flint': flint.__version__, 'numpy': numpy.__version__,
                'scipy': scipy.__version__}, 'wall_s': time.time() - t0, 'res': res}, open(a.out, 'w'), indent=1)
     for r in bad: print('FAIL', r['cohort'], r['i'], r['bad'][:3])
-    print(f'VERIFIED {len(res) - len(bad)}/{len(res)} records; refused {len(bad)}  (python-flint {flint.__version__}, numpy {numpy.__version__})')
+    print(f'VERIFIED {len(res) - len(bad)}/{len(res)} records; refused {len(bad)}; tol {a.tol:g}; max lower-end deviation {max(r["max_lower_end_dev"] for r in res):.2g}  (python-flint {flint.__version__}, numpy {numpy.__version__})')

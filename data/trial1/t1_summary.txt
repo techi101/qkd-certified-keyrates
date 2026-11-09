@@ -1,0 +1,50 @@
+records 600
+
+== eps 0.0 n 120 {'S_not_PD': 120}
+  float_std range -635.6979410326288 -521.5728551081718
+
+== eps 1e-14 n 120 {'ok': 120}
+  [A] n=80 proven overstatement: 64/80; max 4.142e-01 median 4.642e-04 nats; float_std > routeA bound in 11; max(float_std-routeA) 6.692e-07; rate>0 claimed by float_std but exact(hi)<=0: 3; float_std positive 76, routeA positive 77
+     flip i=4 float_rate=6.490e-04 exact_hi_rate=-2.630e-04 routeA_rate=7.752e-04
+     flip i=76 float_rate=1.796e-04 exact_hi_rate=-8.818e-04 routeA_rate=3.004e-04
+     flip i=49 float_rate=1.176e-02 exact_hi_rate=-5.858e-01 routeA_rate=1.185e-02
+  [B] n=40 proven overstatement: 29/40; max 2.323e-01 median 4.550e-06 nats; float_std > routeA bound in 9; max(float_std-routeA) 6.694e-07; rate>0 claimed by float_std but exact(hi)<=0: 3; float_std positive 20, routeA positive 20
+     flip i=84 float_rate=1.267e-03 exact_hi_rate=-3.858e-03 routeA_rate=1.266e-03
+     flip i=108 float_rate=6.139e-05 exact_hi_rate=-7.788e-04 routeA_rate=2.109e-04
+     flip i=101 float_rate=7.451e-04 exact_hi_rate=-4.579e-03 routeA_rate=7.452e-04
+  [all] n=120 proven overstatement: 93/120; max 4.142e-01 median 3.818e-04 nats; float_std > routeA bound in 20; max(float_std-routeA) 6.694e-07; rate>0 claimed by float_std but exact(hi)<=0: 6; float_std positive 96, routeA positive 97
+     flip i=4 float_rate=6.490e-04 exact_hi_rate=-2.630e-04 routeA_rate=7.752e-04
+     flip i=76 float_rate=1.796e-04 exact_hi_rate=-8.818e-04 routeA_rate=3.004e-04
+     flip i=84 float_rate=1.267e-03 exact_hi_rate=-3.858e-03 routeA_rate=1.266e-03
+     flip i=108 float_rate=6.139e-05 exact_hi_rate=-7.788e-04 routeA_rate=2.109e-04
+     flip i=49 float_rate=1.176e-02 exact_hi_rate=-5.858e-01 routeA_rate=1.185e-02
+     flip i=101 float_rate=7.451e-04 exact_hi_rate=-4.579e-03 routeA_rate=7.452e-04
+
+== eps 1e-12 n 120 {'ok': 120}
+  [A] n=80 proven overstatement: 75/80; max 4.477e-02 median 9.338e-06 nats; float_std > routeA bound in 0; max(float_std-routeA) -1.174e-06; rate>0 claimed by float_std but exact(hi)<=0: 1; float_std positive 77, routeA positive 77
+     flip i=77 float_rate=2.028e-02 exact_hi_rate=-4.431e-02 routeA_rate=8.769e-02
+  [B] n=40 proven overstatement: 30/40; max 2.142e-03 median 1.373e-07 nats; float_std > routeA bound in 0; max(float_std-routeA) -4.099e-06; rate>0 claimed by float_std but exact(hi)<=0: 0; float_std positive 11, routeA positive 20
+  [all] n=120 proven overstatement: 105/120; max 4.477e-02 median 3.312e-06 nats; float_std > routeA bound in 0; max(float_std-routeA) -1.174e-06; rate>0 claimed by float_std but exact(hi)<=0: 1; float_std positive 88, routeA positive 97
+     flip i=77 float_rate=2.028e-02 exact_hi_rate=-4.431e-02 routeA_rate=8.769e-02
+
+== eps 1e-10 n 120 {'ok': 120}
+  [A] n=80 proven overstatement: 45/80; max 3.287e-05 median 8.083e-10 nats; float_std > routeA bound in 0; max(float_std-routeA) -4.091e-07; rate>0 claimed by float_std but exact(hi)<=0: 0; float_std positive 72, routeA positive 77
+  [B] n=40 proven overstatement: 26/40; max 7.262e-07 median 2.222e-08 nats; float_std > routeA bound in 0; max(float_std-routeA) -3.498e-07; rate>0 claimed by float_std but exact(hi)<=0: 0; float_std positive 2, routeA positive 20
+  [all] n=120 proven overstatement: 71/120; max 3.287e-05 median 3.917e-09 nats; float_std > routeA bound in 0; max(float_std-routeA) -3.498e-07; rate>0 claimed by float_std but exact(hi)<=0: 0; float_std positive 74, routeA positive 97
+
+== eps 1e-08 n 120 {'ok': 120}
+  [A] n=80 proven overstatement: 40/80; max 4.626e-08 median 2.927e-12 nats; float_std > routeA bound in 0; max(float_std-routeA) -1.728e-05; rate>0 claimed by float_std but exact(hi)<=0: 0; float_std positive 67, routeA positive 77
+  [B] n=40 proven overstatement: 15/40; max 4.166e-08 median -4.115e-12 nats; float_std > routeA bound in 0; max(float_std-routeA) -1.332e-05; rate>0 claimed by float_std but exact(hi)<=0: 0; float_std positive 15, routeA positive 20
+  [all] n=120 proven overstatement: 55/120; max 4.626e-08 median -2.320e-12 nats; float_std > routeA bound in 0; max(float_std-routeA) -1.332e-05; rate>0 claimed by float_std but exact(hi)<=0: 0; float_std positive 82, routeA positive 97
+eps=1e-14: overstate>1e-6 nats: 83/120; overstate(bits)>|float rate|: 19; float_rate>0 & routeA_rate<=0: 0; max enclosure width 3.09e-12; float_std below routeA by median 1.97e-05; mean time 2.16s; precs [400]
+eps=1e-12: overstate>1e-6 nats: 66/120; overstate(bits)>|float rate|: 3; float_rate>0 & routeA_rate<=0: 0; max enclosure width 3.11e-12; float_std below routeA by median 3.20e-04; mean time 2.11s; precs [400]
+eps=1e-10: overstate>1e-6 nats: 1/120; overstate(bits)>|float rate|: 0; float_rate>0 & routeA_rate<=0: 0; max enclosure width 3.11e-12; float_std below routeA by median 2.31e-03; mean time 2.18s; precs [400]
+eps=1e-08: overstate>1e-6 nats: 0/120; overstate(bits)>|float rate|: 0; float_rate>0 & routeA_rate<=0: 0; max enclosure width 3.11e-12; float_std below routeA by median 1.23e-03; mean time 2.20s; precs [400]
+eps=1e-14 cohort A: float claims positive 76/80; exact certificate of same candidate positive (lo) 73; routeA positive 77
+eps=1e-14 cohort B: float claims positive 20/40; exact certificate of same candidate positive (lo) 17; routeA positive 20
+eps=1e-12 cohort A: float claims positive 77/80; exact certificate of same candidate positive (lo) 76; routeA positive 77
+eps=1e-12 cohort B: float claims positive 11/40; exact certificate of same candidate positive (lo) 11; routeA positive 20
+eps=1e-10 cohort A: float claims positive 72/80; exact certificate of same candidate positive (lo) 72; routeA positive 77
+eps=1e-10 cohort B: float claims positive 2/40; exact certificate of same candidate positive (lo) 2; routeA positive 20
+eps=1e-08 cohort A: float claims positive 67/80; exact certificate of same candidate positive (lo) 67; routeA positive 77
+eps=1e-08 cohort B: float claims positive 15/40; exact certificate of same candidate positive (lo) 15; routeA positive 20

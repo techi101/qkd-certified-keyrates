@@ -1,0 +1,3 @@
+Nc=8 d=36 setup_fc=0.25s certified 8/8 stopped 8/8 median A_s 0.77s max 1.81s median solve 0.19s max|A-float| 5.54e-11 min log-eig -141 precs [(400, 'vdhoeven_mourrain'), (800, 'vdhoeven_mourrain')]
+Nc=10 d=44 setup_fc=0.40s certified 8/8 stopped 8/8 median A_s 2.17s max 2.58s median solve 0.24s max|A-float| 9.43e-11 min log-eig -179 precs [(400, 'vdhoeven_mourrain'), (800, 'vdhoeven_mourrain')]
+Nc=12 d=52 setup_fc=0.75s certified 8/8 stopped 8/8 median A_s 3.26s max 5.48s median solve 0.28s max|A-float| 5.96e-10 min log-eig -177 precs [(800, 'vdhoeven_mourrain')]

@@ -1,0 +1,89 @@
+[{"stream_name":"stdout","time":475.100908368,"data":"point 1 /80\n"}
+,{"stream_name":"stdout","time":475.101088821,"data":"point 2 /80\n"}
+,{"stream_name":"stdout","time":475.101094858,"data":"point 3 /80\n"}
+,{"stream_name":"stdout","time":475.101097776,"data":"point 4 /80\n"}
+,{"stream_name":"stdout","time":475.101100296,"data":"point 5 /80\n"}
+,{"stream_name":"stdout","time":475.101102829,"data":"point 6 /80\n"}
+,{"stream_name":"stdout","time":475.101105196,"data":"point 7 /80\n"}
+,{"stream_name":"stdout","time":475.101107552,"data":"point 8 /80\n"}
+,{"stream_name":"stdout","time":475.101110112,"data":"point 9 /80\n"}
+,{"stream_name":"stdout","time":475.101112567,"data":"point 10 /80\n"}
+,{"stream_name":"stdout","time":475.101115062,"data":"point 11 /80\n"}
+,{"stream_name":"stdout","time":475.101117467,"data":"point 12 /80\n"}
+,{"stream_name":"stdout","time":475.101119927,"data":"point 13 /80\n"}
+,{"stream_name":"stdout","time":475.101122366,"data":"point 14 /80\n"}
+,{"stream_name":"stdout","time":475.101124792,"data":"point 15 /80\n"}
+,{"stream_name":"stdout","time":475.101127147,"data":"point 16 /80\n"}
+,{"stream_name":"stdout","time":475.101129708,"data":"point 17 /80\n"}
+,{"stream_name":"stdout","time":475.101132076,"data":"point 18 /80\n"}
+,{"stream_name":"stdout","time":475.101134443,"data":"point 19 /80\n"}
+,{"stream_name":"stdout","time":475.101136803,"data":"point 20 /80\n"}
+,{"stream_name":"stdout","time":475.1011448,"data":"point 21 /80\n"}
+,{"stream_name":"stdout","time":475.101148403,"data":"point 22 /80\n"}
+,{"stream_name":"stdout","time":475.101152167,"data":"point 23 /80\n"}
+,{"stream_name":"stdout","time":475.101159503,"data":"point 24 /80\n"}
+,{"stream_name":"stdout","time":475.101162233,"data":"point 25 /80\n"}
+,{"stream_name":"stdout","time":475.101164554,"data":"point 26 /80\n"}
+,{"stream_name":"stdout","time":475.101166899,"data":"point 27 /80\n"}
+,{"stream_name":"stdout","time":475.101169208,"data":"point 28 /80\n"}
+,{"stream_name":"stdout","time":475.101171516,"data":"point 29 /80\n"}
+,{"stream_name":"stdout","time":475.101173919,"data":"point 30 /80\n"}
+,{"stream_name":"stdout","time":475.101176455,"data":"point 31 /80\n"}
+,{"stream_name":"stdout","time":475.101178813,"data":"point 32 /80\n"}
+,{"stream_name":"stdout","time":475.101181154,"data":"point 33 /80\n"}
+,{"stream_name":"stdout","time":475.101183558,"data":"point 34 /80\n"}
+,{"stream_name":"stdout","time":475.101185868,"data":"point 35 /80\n"}
+,{"stream_name":"stdout","time":475.101188192,"data":"point 36 /80\n"}
+,{"stream_name":"stdout","time":475.101190502,"data":"point 37 /80\n"}
+,{"stream_name":"stdout","time":475.101192904,"data":"point 38 /80\n"}
+,{"stream_name":"stdout","time":475.101195437,"data":"point 39 /80\n"}
+,{"stream_name":"stdout","time":475.101197805,"data":"point 40 /80\n"}
+,{"stream_name":"stdout","time":475.101200142,"data":"point 41 /80\n"}
+,{"stream_name":"stdout","time":475.101202599,"data":"point 42 /80\n"}
+,{"stream_name":"stdout","time":475.10120506,"data":"point 43 /80\n"}
+,{"stream_name":"stdout","time":475.10120737,"data":"point 44 /80\n"}
+,{"stream_name":"stdout","time":475.101209681,"data":"point 45 /80\n"}
+,{"stream_name":"stdout","time":475.101212191,"data":"point 46 /80\n"}
+,{"stream_name":"stdout","time":475.101214757,"data":"point 47 /80\n"}
+,{"stream_name":"stdout","time":475.101217152,"data":"point 48 /80\n"}
+,{"stream_name":"stdout","time":475.101219519,"data":"point 49 /80\n"}
+,{"stream_name":"stdout","time":475.101221896,"data":"point 50 /80\n"}
+,{"stream_name":"stdout","time":475.101230144,"data":"point 51 /80\n"}
+,{"stream_name":"stdout","time":475.101232697,"data":"point 52 /80\n"}
+,{"stream_name":"stdout","time":475.101235024,"data":"point 53 /80\n"}
+,{"stream_name":"stdout","time":475.101237344,"data":"point 54 /80\n"}
+,{"stream_name":"stdout","time":475.101239894,"data":"point 55 /80\n"}
+,{"stream_name":"stdout","time":475.101242293,"data":"point 56 /80\n"}
+,{"stream_name":"stdout","time":475.101244675,"data":"point 57 /80\n"}
+,{"stream_name":"stdout","time":475.101247075,"data":"point 58 /80\n"}
+,{"stream_name":"stdout","time":475.101249402,"data":"point 59 /80\n"}
+,{"stream_name":"stdout","time":475.101251812,"data":"point 60 /80\n"}
+,{"stream_name":"stdout","time":475.101254184,"data":"point 61 /80\n"}
+,{"stream_name":"stdout","time":475.101256499,"data":"point 62 /80\n"}
+,{"stream_name":"stdout","time":475.101259044,"data":"point 63 /80\n"}
+,{"stream_name":"stdout","time":475.101261443,"data":"point 64 /80\n"}
+,{"stream_name":"stdout","time":475.101263824,"data":"point 65 /80\n"}
+,{"stream_name":"stdout","time":475.101266228,"data":"point 66 /80\n"}
+,{"stream_name":"stdout","time":475.10126854,"data":"point 67 /80\n"}
+,{"stream_name":"stdout","time":475.101270855,"data":"point 68 /80\n"}
+,{"stream_name":"stdout","time":475.101273173,"data":"point 69 /80\n"}
+,{"stream_name":"stdout","time":475.101275486,"data":"point 70 /80\n"}
+,{"stream_name":"stdout","time":475.101278025,"data":"point 71 /80\n"}
+,{"stream_name":"stdout","time":475.101280424,"data":"point 72 /80\n"}
+,{"stream_name":"stdout","time":475.101282828,"data":"point 73 /80\n"}
+,{"stream_name":"stdout","time":475.101285205,"data":"point 74 /80\n"}
+,{"stream_name":"stdout","time":475.101287525,"data":"point 75 /80\n"}
+,{"stream_name":"stdout","time":475.10128984,"data":"point 76 /80\n"}
+,{"stream_name":"stdout","time":475.101292149,"data":"point 77 /80\n"}
+,{"stream_name":"stdout","time":475.101294545,"data":"point 78 /80\n"}
+,{"stream_name":"stdout","time":475.101297102,"data":"point 79 /80\n"}
+,{"stream_name":"stdout","time":475.101299496,"data":"point 80 /80\n"}
+,{"stream_name":"stdout","time":475.101301936,"data":"COMPLETE; failures: 0\n"}
+,{"stream_name":"stdout","time":475.10130459,"data":"\n"}
+,{"stream_name":"stderr","time":477.743234268,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":477.743273443,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":478.129733035,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":478.129768448,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":479.280959066,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":480.640109375,"data":"[NbConvertApp] Writing 510095 bytes to __results__.html\n"}
+]

@@ -1,0 +1,13 @@
+{
+  "Nc": 8,
+  "n_train": 160,
+  "ridge_alpha": 1.0,
+  "label_generation_seconds": 79.12952170699998,
+  "fit_seconds": 0.020424776000027123,
+  "model_sha256": "e7bd0362952ba09d5f9dc6d18acda7f851f6f2930f2c0efd19b51de7390da354",
+  "model_bytes": 799110,
+  "training_input_sha256": "03198e88cedb61831eca116da886faa6f2727523956dd414e6f5a7e29e8ec0f7",
+  "python": "3.13.15",
+  "numpy": "2.1.3",
+  "note": "New retraining on identical historical training inputs; not the lost Protocol 3 weights."
+}
