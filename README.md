@@ -2,7 +2,7 @@
 
 **These are mathematically proven key rates for discrete-modulated continuous-variable QKD, each checked in under half a second. Every bound comes with a witness that you can re-verify yourself.**
 
-This is the reproducibility package for the paper *"Rounding errors break security proofs: certified key rates for continuous-variable quantum key distribution"* (N. Kumar and M. Khulbe, Netaji Subhas University of Technology). It covers asymptotic QPSK DM CV-QKD at photon-number cutoffs N_c = 8 and 12.
+This is the reproducibility package for the paper *"Rounding errors break security proofs: certified key rates for continuous-variable quantum key distribution"* (N. K. Yadav and M. Khulbe, Netaji Subhas University of Technology). It covers asymptotic QPSK DM CV-QKD at photon-number cutoffs N_c = 8 and 12.
 
 ## Highlights
 
